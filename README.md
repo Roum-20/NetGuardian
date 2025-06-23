@@ -8,24 +8,6 @@ NetGuardian is a real-time network intrusion detection system (IDS) with a live 
 - Desktop notifications on intrusion
 - Streamlit dashboard with live logs and charts
 - Intrusion simulator for testing
-
-## 📁 Project Structure
-```
-NetGuardian/
-├── app.py
-├── detector.py
-├── intrusion_simulator.py
-├── logger.py
-├── packet_sniffer.py
-├── run_all.py
-├── test_detection.py
-├── utils.py
-├── requirements.txt
-├── README.md
-└── data/
-    └── logs.csv
-```
-
 ## 💻 How to Run
 
 ### 1. Install dependencies
@@ -49,7 +31,10 @@ This launches the dashboard at `http://localhost:8501` and starts capturing pack
 ```bash
 python intrusion_simulator.py
 ```
-
+### 5. detct the attack
+```bash
+python test_detection.py
+```
 ## 📊 Dashboard
 - Click **Start IDS** to begin monitoring
 - View alerts in a live table and chart
@@ -69,5 +54,5 @@ python intrusion_simulator.py
 - Run as Administrator/root to sniff packets
 - Works on local and Wi-Fi networks
 
-## 📜 License
-MIT License. Use freely with credit.
+## ⚠️ Legal Notice
+This tool is intended only for authorized testing and educational purposes.
