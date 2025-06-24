@@ -10,9 +10,9 @@ from logger import log_alert
 from utils import load_logs
 
 # Set page layout
-st.set_page_config(page_title="Real-Time IDS Dashboard", layout="wide")
+st.set_page_config(page_title="NetGuardian", layout="wide")
 st.sidebar.title("🔧 Controls")
-st.title("🛡️ Real-Time Intrusion Detection System")
+st.title("🛡️Netguardian")
 
 # Function to monitor live packets
 def monitor():
