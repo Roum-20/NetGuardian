@@ -23,7 +23,7 @@ interface_to_use = "Wi-Fi"  # or "eth0", "wlan0", etc.
 
 ### 3. Start the IDS
 ```bash
-python run_all.py
+streamlit run app.py
 ```
 This launches the dashboard at `http://localhost:8501` and starts capturing packets.
 
@@ -33,7 +33,7 @@ python intrusion_simulator.py
 ```
 ### 5. detct the attack
 ```bash
-python test_detection.py
+python detector.py
 ```
 ## 📊 Dashboard
 - Click **Start IDS** to begin monitoring
